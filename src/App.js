@@ -74,7 +74,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-       {this.state.students[1]}
+       {this.state.students}
         <header className="App-header">React Students</header>
       </div>
     );
